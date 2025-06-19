@@ -62,7 +62,7 @@ h1 {
   box-shadow: 0 4px 10px rgba(146, 5, 99, 0.884);
 }
 
-h2 {
+#t {
   margin: 10px 0;
   background-color: rgb(187, 14, 178);
   font-size: 20px;
@@ -196,16 +196,25 @@ img, .projects img {
     
   }
   h2, h4 {
+    color:black;
     font-size: 17px;
     padding: 0 4px;
+    border-radius: 20px;
   }
   p {
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255); 
     font-size: 14px;
     padding: 0 4px;
+    color:black;
   }
   #picture {
     position: static;
     margin: 0 auto 20px auto;
     display: block;
+  }
+  h2,h4,p{
+   background-color: rgba(0, 0, 0, 0.5);
+   color:white
   }
 }
